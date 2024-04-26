@@ -4,7 +4,6 @@ import { cart } from '../data/cart.js';
 import { products, getProduct } from '../data/products.js';
 import { formatCurrency } from './utils/money.js';
 
-// Function to calculate the total price of products in the cart
 function calculateTotalPrice() {
     let totalPrice = 0;
     cart.forEach((cartItem) => {
