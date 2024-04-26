@@ -17,22 +17,6 @@ export function getProduct(productId){
   return matchingProduct;
 }
 
-// export function getProduct(productId) {
-//   // Combine both arrays into one
-//   const combinedProducts = [...products, ...products1];
-
-//   let matchingProduct;
-
-//   // Iterate over the combined array to find the matching product
-//   combinedProducts.forEach((product) => {
-//       if (product.id === productId) {
-//           matchingProduct = product;
-//       }
-//   });
-
-//   return matchingProduct;
-// }
-
 
 export const products = [
   {
