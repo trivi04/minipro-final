@@ -16,9 +16,8 @@ page which is essential to do before
 placing orders. We linked this with our 
 home.</li>
   <li>Next, we went on to design our product 
-page. We made the cart section, 
-checkout section and view orders 
-section. This was the most challenging 
+page. We made the cart section and
+checkout section. This was the most challenging 
 part in our project and we took help of 
 the internet to finish this. We learnt 
 about different features of JS to achieve 
