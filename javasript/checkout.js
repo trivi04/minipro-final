@@ -13,8 +13,6 @@ cart.forEach((cartItem) => {
   cartSummaryHTML += `
     <div class="cart-item-container
       js-cart-item-container-${matchingProduct.id}">
-      
-
       <div class="cart-item-details-grid">
         <img class="product-image"
           src="${matchingProduct.image}">
@@ -96,7 +94,7 @@ productPriceCents+= product.priceCents*cartItem.quantity;
             <div class="payment-summary-money">&#8377 ${formatCurrency(productPriceCents)}</div>
           </div>
           <div class="payment-summary-row">
-            <div>Shipping &amp; handling:</div>
+            <div>Service</div>
             <div class="payment-summary-money"> &#8377 15</div>
           </div>
           <div class="payment-summary-row subtotal-row">
@@ -104,7 +102,7 @@ productPriceCents+= product.priceCents*cartItem.quantity;
             <div class="payment-summary-money">&#8377 ${formatCurrency(productPriceCents)}</div>
           </div>
           <div class="payment-summary-row">
-            <div>Estimated tax (10%):</div>
+            <div>Estimated tax (5%):</div>
             <div class="payment-summary-money">&#8377 ${formatCurrency(tax)}</div>
           </div>
           <div class="payment-summary-row total-row">
