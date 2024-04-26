@@ -1,7 +1,6 @@
 import {cart,addToCart,calculateCartQuantity} from '../data/cart.js';
 import {products,products1} from '../data/products.js'
 import { formatCurrency } from './utils/money.js';
-//module only works with live server
 
 function generateProductHTML(products) {
     let productsHTML = '';
@@ -69,7 +68,7 @@ carousels.forEach((carousel, index) => {
     const dragging = (e) => {
         if (!isDragging) return;
         const x = e.pageX;
-        const walk = (x - startX) * 3; // Adjust the speed of scrolling
+        const walk = (x - startX) * 3;
         carousel.scrollLeft = scrollLeft - walk;
     }
 
@@ -104,7 +103,6 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
           clearTimeout(previousTimeoutId);
         }
         const timeoutId = setTimeout(() => {
-            // addedMessage.classList.remove('added-to-cart-visible');
             addedMessage.classList.add('hidden');
           }, 2000);
           addedMessageTimeouts[productId] = timeoutId;
